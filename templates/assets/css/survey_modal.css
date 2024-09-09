@@ -1,0 +1,686 @@
+.surevy_modal_first_div_style {
+
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) inset !important;
+
+}
+
+.survey_modal_style {
+    font-family: Averia+Libre;
+
+}
+
+.qualitaive_modal_main_div {
+    overflow-y: scroll;
+
+}
+
+
+
+
+.column_shadow_table_div {
+
+    box-shadow: 0 0.5rem 1rem rgb(195 191 191 / 15%) inset !important;
+}
+
+
+.multi_color_div {
+    background: linear-gradient(to right,
+            #259390 0%,
+            #259390 50%,
+            #45aeae 50%,
+            #45aeae 100%);
+    border-radius: 50%;
+}
+
+.survey_modal_exit_icon {
+    position: absolute;
+    top: -13px;
+    font-size: 3rem;
+    right: -3px;
+    cursor: pointer;
+}
+
+.survey_modal_title {
+    font-size: 1.7rem;
+}
+
+.survey_modal_all_headings {
+    font-size: 1.3rem;
+}
+
+.survey_modal_sub_titles {
+    font-size: 1.2rem;
+}
+
+.survey_data_all_answers_style {
+    font-size: 0.8rem;
+}
+
+.survey_dmk_admk_portrait_name {
+    font-size: 2rem;
+}
+
+.candidate_details_heading_survey {
+    font-size: 1rem;
+}
+
+.candidate_details_answers_survey .survey_table_answers {
+    font-size: 0.8rem;
+}
+
+.survey_actions_taken_circle_style {
+    border-radius: 50%;
+    background-color: #259390;
+    height: 150px;
+}
+
+.survey_actions_taken_heading {
+    font-size: 1rem;
+}
+
+.survey_actions_taken_answers {
+    font-size: 0.8rem;
+}
+
+
+.survey_actions_taken_circle_two {
+    border-radius: 50%;
+    background-color: #cc3253;
+    height: 150px;
+}
+
+.survey_previous_election_data {
+    font-size: 0.8rem;
+}
+
+.survey_sev_comp_first_circle {
+    border-radius: 50%;
+    border: none;
+    border-bottom: 2px solid white;
+    height: 21rem;
+    width: 21rem;
+}
+
+.survey_sev_comp_second_circle {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    border-right: 1px solid white;
+}
+
+@media all and (max-width: 1195px) {
+    .survey_modal_exit_icon {
+        position: absolute;
+        top: -2px;
+        font-size: 2rem;
+        right: -7px;
+        cursor: pointer;
+    }
+
+    .survey_modal_title {
+        font-size: 1.2rem;
+    }
+
+    .survey_modal_all_headings {
+        font-size: 0.9rem;
+    }
+
+
+    .survey_table_head_style {
+        font-size: 0.8rem;
+    }
+
+    .survey_modal_sub_titles {
+        font-size: 0.7rem;
+    }
+
+    .survey_data_all_answers_style,
+    .survey_actions_taken_answers {
+        font-size: 0.6rem;
+    }
+
+    .survey_dmk_admk_portrait_name {
+        font-size: 1rem;
+    }
+
+    .candidate_details_heading_survey {
+        font-size: 0.7rem;
+    }
+
+    .candidate_details_answers_survey {
+        font-size: 0.5rem;
+    }
+
+    .survey_actions_taken_circle_style {
+        border-radius: 50%;
+        background-color: #259390;
+    }
+
+    .survey_actions_taken_circle_style {
+        border-radius: 50%;
+        background-color: #259390;
+        height: 100px;
+    }
+
+
+    .survey_actions_taken_circle_two {
+        border-radius: 50%;
+        background-color: #cc3253;
+        height: 100px;
+    }
+
+
+    .survey_actions_taken_heading {
+        font-size: 0.7rem;
+    }
+
+
+    .survey_previous_election_data {
+        font-size: 9px;
+    }
+
+    .survey_sev_comp_first_circle {
+        border-radius: 50%;
+        border-bottom: 2px solid white;
+        height: 16rem;
+        width: 16rem;
+    }
+
+    .survey_sev_comp_second_circle {
+        height: 14rem;
+        width: 14rem;
+        border-radius: 50%;
+        border-right: 1px solid white;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .qualitaive_modal_main_div {
+        padding-top: 1rem !important;
+    }
+
+    .survey_modal_title {
+        font-size: 1rem !important;
+        width: 100% !important;
+    }
+
+
+    .survey_modal_style {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+
+    }
+
+    .constituency_table_question_header,
+    .constituency_table_answer_header,
+    .constituency_table_insights_header {
+        display: flex !important;
+        text-align: center !important;
+        align-items: center !important;
+        height: 100% !important;
+    }
+
+    .survey_constituency_table_answer_column,
+    .survey_constituency_table_icon_column,
+    .survey_constituency_table_question_column {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .survey_constituency_table_question_column {
+        width: 30% !important;
+    }
+
+    .survey_constituency_table_icon_column {
+        padding: unset !important;
+        width: 25% !important;
+    }
+
+    .survey_constituency_table_answer_column {
+        width: 45% !important;
+    }
+
+
+    .survey_table_head_style {
+        width: 100% !important;
+        font-size: 0.7rem !important;
+    }
+
+    .column_shadow_table_div {
+        margin-top: unset !important;
+
+        padding: unset !important;
+        padding-top: 0.5rem !important;
+
+    }
+
+    .survey_constituency_table_title_div {
+        width: 100% !important;
+        display: flex !important;
+        text-align: center;
+    }
+
+    .constituency_table_main_header {
+        padding: unset !important;
+        height: 5% !important;
+    }
+
+
+    .constituency_causeof_failure_div,
+    .constituency_imp_probs,
+    .constituency_important_reasons {
+        width: 100% !important;
+        padding: unset !important;
+        margin-top: 1rem;
+
+    }
+
+    .constituency_main_content_holder {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .constituency_imp_reason_rows {
+        justify-content: center !important;
+    }
+
+    .constituency_details_title {
+        display: flex !important;
+        font-size: 0.7rem !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+
+    .constituency_status_table_div {
+        padding: unset !important;
+    }
+
+    .constituency_table_main_column {
+        padding: unset !important;
+        margin: unset !important;
+    }
+
+    .constituency_table_answer_icons {
+        height: 10px !important;
+        width: 10px !important;
+    }
+
+    .constituency_table_answer_column {
+        display: flex !important;
+    }
+
+
+    /* disciplinary_procedures */
+
+    .survey_disciplinary_procedures_title_div {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .survey_disciplinary_main_content_div {
+
+        display: flex !important;
+
+    }
+
+    .survey_disciplinary_parent_container {
+        height: unset !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .survey_disciplinary_content_column {
+        width: 100% !important;
+
+    }
+
+    .survey_disciplinary_content_row {
+        gap: 2rem;
+    }
+
+    .survey_counter_party_title_container {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .survey_counter_party_first_div {
+        width: 25% !important;
+    }
+
+    .survey_counter_party_second_div {
+        width: 39% !important;
+        padding-left: 0.4rem !important;
+        padding-right: 0.4rem !important;
+    }
+
+    .survey_counter_party_third_div {
+        width: 36% !important;
+        padding-left: 0.4rem !important;
+        padding-right: 0.4rem !important;
+
+    }
+
+    .survey_previous_election_title_container {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .surevy_previous_election_modal_surveycontainer {
+        height: unset !important;
+        display: block !important;
+
+    }
+
+    .survey_prev_election_comp_row {
+        gap: 2rem !important;
+    }
+
+    .surevy_prev_elec_content_container {
+        width: 100% !important;
+    }
+
+    .previous_selection_status_info_container {
+        width: 100% !important;
+        height: 13rem !important;
+    }
+
+
+    .survey_modal_status_title_container {
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: center !important;
+
+    }
+
+    .survey_modal_status_component{
+        width: 100% !important;
+    }
+
+    .survey_modal_candidate_details_title{
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .survey_model_party_cmp_container{
+        height: unset !important;
+    }
+
+    .party_cmp_clmone{
+        width: 10% !important;
+
+    }
+    .party_cmp_clmtwo{
+        width: 90% !important;
+        padding-left: 0.5rem !important;
+
+    }
+    .party_cmp_clmthree{
+        width: 90% !important;
+
+    }
+    .party_cmp_clmfour{
+        width: 10% !important;
+    }
+    .party_cmp_component{
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin: unset !important;
+        margin-bottom: 1rem !important;
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width:992px) {
+
+    .qualitaive_modal_main_div {
+        padding-top: 1rem !important;
+    }
+
+    .survey_modal_title {
+        font-size: 1rem !important;
+        width: 100% !important;
+    }
+
+
+    .survey_modal_style {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+
+    }
+
+    .constituency_table_question_header,
+    .constituency_table_answer_header,
+    .constituency_table_insights_header {
+        display: flex !important;
+        text-align: center !important;
+        align-items: center !important;
+        height: 100% !important;
+    }
+
+    .survey_constituency_table_answer_column,
+    .survey_constituency_table_icon_column,
+    .survey_constituency_table_question_column {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .survey_constituency_table_question_column {
+        width: 30% !important;
+    }
+
+    .survey_constituency_table_icon_column {
+        padding: unset !important;
+        width: 25% !important;
+    }
+
+    .survey_constituency_table_answer_column {
+        width: 45% !important;
+    }
+
+
+    .survey_table_head_style {
+        width: 100% !important;
+        font-size: 0.7rem !important;
+    }
+
+    .column_shadow_table_div {
+        margin-top: unset !important;
+
+        padding: unset !important;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+
+    }
+
+    .survey_constituency_table_title_div {
+        width: 100% !important;
+        display: flex !important;
+        text-align: center;
+    }
+
+    .constituency_table_main_header {
+        height: 10% !important;
+    }
+
+
+    .constituency_causeof_failure_div,
+    .constituency_imp_probs,
+    .constituency_important_reasons {
+        width: 60% !important;
+        padding: unset !important;
+        margin-top: 1rem;
+
+    }
+
+    .constituency_main_content_holder {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .constituency_imp_reason_rows {
+        justify-content: center !important;
+    }
+
+    .constituency_details_title {
+        display: flex !important;
+        font-size: 0.7rem !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+
+    .constituency_status_table_div {
+        padding: unset !important;
+    }
+
+    .constituency_table_main_column {
+        padding: unset !important;
+        margin: unset !important;
+    }
+
+    .constituency_table_answer_icons {
+        height: 10px !important;
+        width: 10px !important;
+    }
+
+    .constituency_table_answer_column {
+        display: flex !important;
+    }
+
+
+    /* disciplinary_procedures */
+
+    .survey_disciplinary_procedures_title_div {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .survey_disciplinary_main_content_div {
+
+        display: flex !important;
+
+    }
+
+    .survey_disciplinary_parent_container {
+        height: unset !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .survey_disciplinary_content_column {
+        width: 70% !important;
+
+    }
+
+    .survey_disciplinary_content_row {
+        gap: 2rem;
+    }
+
+    .survey_counter_party_title_container {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .survey_counter_party_first_div {
+        width: 25% !important;
+    }
+
+    .survey_counter_party_second_div {
+        width: 39% !important;
+        padding-left: 0.4rem !important;
+        padding-right: 0.4rem !important;
+    }
+
+    .survey_counter_party_third_div {
+        width: 36% !important;
+        padding-left: 0.4rem !important;
+        padding-right: 0.4rem !important;
+
+    }
+
+    .survey_previous_election_title_container {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .surevy_previous_election_modal_surveycontainer {
+        height: unset !important;
+        display: block !important;
+
+    }
+
+    .survey_prev_election_comp_row {
+        gap: 2rem !important;
+    }
+
+    .surevy_prev_elec_content_container {
+        width: 100% !important;
+    }
+
+    .previous_selection_status_info_container {
+        width: 70% !important;
+        height: 13rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 1rem !important;
+    }
+
+
+    .survey_modal_status_title_container {
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: center !important;
+
+    }
+
+    .survey_modal_status_component{
+        width: 50% !important;
+    }
+
+    .survey_modal_candidate_details_title{
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .survey_model_party_cmp_container{
+        height: unset !important;
+    }
+
+    .party_cmp_clmone{
+        width: 10% !important;
+
+    }
+    .party_cmp_clmtwo{
+        width: 90% !important;
+        padding-left: 0.5rem !important;
+
+    }
+    .party_cmp_clmthree{
+        width: 90% !important;
+
+    }
+    .party_cmp_clmfour{
+        width: 10% !important;
+    }
+    .party_cmp_component{
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin: unset !important;
+        margin-bottom: 1rem !important;
+    }
+}

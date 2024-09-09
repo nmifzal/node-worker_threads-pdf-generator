@@ -1,0 +1,29 @@
+.comparative_analysis_pdf_selection_page_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 25rem;
+    border-radius: 5px;
+    /* box-shadow: 0 1px 5px 1px lightgrey; */
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+.Select-multi-value-wrapper {
+    height: 100% !important;
+    /* align-items: center; */
+}
+
+.graph_multiselect_dropdown_style {
+    width: 100%;
+}
+
+.graph_select_dropdown_style {
+    width: 100%;
+}
+
+.Select-placeholder {
+    color: #bbbbbb !important;
+}

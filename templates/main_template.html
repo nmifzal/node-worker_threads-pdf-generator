@@ -1,0 +1,832 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Report</title>
+        
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.33.0/plotly.min.js"
+            integrity="sha512-kG/veDBO4Av/ffjTdtEvtsUkVgAisp5MWbymAUc5vJlyZb3WSZ+gEC8cNlAACBzaHQQLTUKqRaNIKeIc44yD6w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="./assets/css/report_pdf_generation_index_page.css"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/css/report_pdf_generation_page1.css"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/css/report_pdf_generation_page2.css"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/css/booth_model.css"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            type="text/css"
+        />
+        <style id="plotly.js-style-global"></style>
+        <style>
+            @media print {
+                html,
+                body {
+                    height: 100%;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    zoom: 0.9;
+                }
+                @page {
+                    size: A4 landscape;
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+         
+         
+           
+        <section>
+            <!-- report body -->
+            <div>
+                <div
+                    style="
+                        text-transform: uppercase;
+                        display: flex;
+                        background-color: rgb(171, 45, 36);
+                        color: white;
+                    "
+                >
+                    <div
+                        style="
+                            flex: 1 1 0%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        "
+                    >
+                        PAGE NO: 1
+                    </div>
+                    <div class="trapezoid trapezoid-both" style="flex: 3 1 0%; font-size: 1.25rem;">
+                        <div class="text">
+                            <div class="d-flex flex-column">
+                                <div>
+                                    Loksabha elections 2024 - Tirunelveli report
+                                </div>
+                                <div
+                                    style="
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        font-size: 0.8rem;
+                                    "
+                                >
+                                    
+                                    <div>incharge minister : </div>
+                                    <div>WIN/LOSE MARGIN : 165062</div>
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        style="
+                            flex: 1 1 0%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        "
+                    >
+                        DMK
+                    </div>
+                </div>
+                <div
+                    style="
+                        border: 1px solid lightgrey;
+                        border-radius: 5px;
+                        background-color: rgb(252, 250, 250);
+                    "
+                >
+                    <div
+                        class="m-2 d-flex align-items-center justify-content-space-between gap-3"
+                    >
+                        <!-- top candidates -->
+                        
+                        <div class="section-1-profile-card bg-white">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <img
+                                    class="section-1-profile-card-img"
+                                    src="https://placehold.co/600x400"
+                                />
+                                <div>
+                                    <p class="font-weight-700">
+                                        ROBERT BRUCE, C.
+                                    </p>
+                                    <p class="font-sm">INC</p>
+                                </div>
+                            </div>
+                            <div class="candidate-votes-info">
+                                <span style="font-weight: 600;">VOTES</span>
+                                <span>4,99,493</span>
+                            </div>
+                        </div>
+                        
+                        <div class="section-1-profile-card bg-white">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <img
+                                    class="section-1-profile-card-img"
+                                    src="https://placehold.co/600x400"
+                                />
+                                <div>
+                                    <p class="font-weight-700">
+                                        NAINAR NAGENTHRAN
+                                    </p>
+                                    <p class="font-sm">BJP</p>
+                                </div>
+                            </div>
+                            <div class="candidate-votes-info">
+                                <span style="font-weight: 600;">VOTES</span>
+                                <span>3,34,431</span>
+                            </div>
+                        </div>
+                        
+                        <div class="section-1-profile-card bg-white">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <img
+                                    class="section-1-profile-card-img"
+                                    src="https://placehold.co/600x400"
+                                />
+                                <div>
+                                    <p class="font-weight-700">
+                                        JANSI RANI, M.
+                                    </p>
+                                    <p class="font-sm">AIADMK</p>
+                                </div>
+                            </div>
+                            <div class="candidate-votes-info">
+                                <span style="font-weight: 600;">VOTES</span>
+                                <span>88,996</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                    
+                
+
+                
+                
+                    
+                
+
+                
+                
+                    
+                
+            
+                <div style="margin: 0px 0.5rem">
+                    <div class="d-flex align-items-end justify-content-between">
+                        <div class="trapezoid trapezoid-right">
+                            <span class="text line-height-2rem" 
+                                >Tirunelveli பாராளுமன்ற தொகுதியின் கவனிக்கத்தக்க தகவல்</span
+                            >
+                        </div>
+                        <div class="d-flex gap-3">
+                            <div class="section-1-img-div">
+                                <div class="party-logo">
+                                    <img src="https://placehold.co/300x200" />
+                                </div>
+                                <p
+                                    style="
+                                        color: black;
+                                        font-size: 1rem;
+                                        font-weight: 600;
+                                    "
+                                >
+                                    MARGIN 45, 789 (2012)
+                                </p>
+                            </div>
+                            <div class="section-1-img-div">
+                                <div class="party-logo">
+                                    <img src="https://placehold.co/300x200" />
+                                </div>
+                                <p
+                                    style="
+                                        color: black;
+                                        font-size: 1rem;
+                                        font-weight: 600;
+                                    "
+                                >
+                                    MARGIN 45, 789 (2012)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        style="
+                            padding: 0.5rem;
+                            border: 1px solid lightgrey;
+                            border-radius: 5px;
+                            background-color: rgb(252, 250, 250);
+                        "
+                    >
+                        <div class="d-flex gap-2">
+                            <div class="count-table">
+                                <div class="section-2-table-header">
+                                    <p class="m-0 text-center">
+                                        பாலினம் மற்றும் வயது குழுக்கள்
+                                    </p>
+                                </div>
+                                <div class="section-2-table-body">
+                                     
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            
+                                            <img
+                                                src="./assets/icons/pdf_male.svg"
+                                                style="
+                                                    width: 1rem;
+                                                    height: 1rem;
+                                                "
+                                            />
+                                            
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            8,08,127
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="vertical-divider"></div>
+                                     
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            
+                                            <img
+                                                src="./assets/icons/pdf_female.svg"
+                                                style="
+                                                    width: 1rem;
+                                                    height: 1rem;
+                                                "
+                                            />
+                                            
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            8,46,225
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="vertical-divider"></div>
+                                     
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                others
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            151
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="vertical-divider"></div>
+                                     
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                total
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            16,54,503
+                                        </p>
+                                    </div>
+                                     
+                                    <div class="table-spacer"></div>
+                                      
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                18-30
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            3,87,599
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                    
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                31-50
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            6,91,670
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                    
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                51-80
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            6,03,438
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                    
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                81+
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            51,677
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                      
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                Total
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            16,54,503
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="count-table">
+                                <div class="section-2-table-header">
+                                    <p class="m-0 text-center">COMMUNITY</p>
+                                </div>
+                                <div class="section-2-table-body">
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700" 
+                                            >
+                                                Devar
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            39%
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                Nadar
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            51%
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                Cheyar
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            1%
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                SC/ST
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            10 %
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="count-table">
+                                <div class="section-2-table-header">
+                                    <p class="m-0 text-center">RELIGION</p>
+                                </div>
+                                <div class="section-2-table-body">
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                Hindu
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            1,20,000
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                Christian
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            60,000
+                                        </p>
+                                    </div>
+                                    <div class="vertical-divider"></div>
+                                    <div class="table-content">
+                                        <div
+                                            class="d-flex align-items-center gap-1"
+                                        >
+                                            <p
+                                                class="m-0 font-weight-700"
+                                            >
+                                                Muslim
+                                            </p>
+                                        </div>
+                                        <div class="horizontal-divider"></div>
+                                        <p
+                                            class="m-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 0.75rem;
+                                            "
+                                        >
+                                            38,000
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3">
+                            
+                            <div class="d-flex gap-1 mt-2 flex-grow-1">
+                                <div
+                                    class="bg-red text-white flex-grow-1 rounded"
+                                >
+                                    <p class="m-0 p-1 text-center">
+                                        CORPORATION
+                                    </p>
+                                </div>
+                                <div class="border flex-grow-1 rounded">
+                                    <p class="m-0 p-1 text-center">2</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-1 mt-2 flex-grow-1">
+                                <div
+                                    class="bg-red text-white flex-grow-1 rounded"
+                                >
+                                    <p class="m-0 p-1 text-center">
+                                        MUNICIPALITY
+                                    </p>
+                                </div>
+                                <div class="border flex-grow-1 rounded">
+                                    <p class="m-0 p-1 text-center">4</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-1 mt-2 flex-grow-1">
+                                <div
+                                    class="bg-red text-white flex-grow-1 rounded"
+                                >
+                                    <p class="m-0 p-1 text-center">
+                                        TOWN PANCHAYAT
+                                    </p>
+                                </div>
+                                <div class="border flex-grow-1 rounded">
+                                    <p class="m-0 p-1 text-center">20</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-1 mt-2 flex-grow-1">
+                                <div
+                                    class="bg-red text-white flex-grow-1 rounded"
+                                >
+                                    <p class="m-0 p-1 text-center">WARDS</p>
+                                </div>
+                                <div class="border flex-grow-1 rounded">
+                                    <p class="m-0 p-1 text-center">258</p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="d-flex gap-1 mt-2 flex-grow-1">
+                                <div
+                                    class="bg-red text-white flex-grow-1 rounded"
+                                >
+                                    <p class="m-0 p-1 text-center">BOOTHS</p>
+                                </div>
+                                <div class="border flex-grow-1 rounded">
+                                    <p class="m-0 p-1 text-center">1,810</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- graph section -->
+            <div class="d-flex">
+                <!-- graph1 -->
+                <div class="reportpdf_secondpage_graphContainer w-50">
+                    <div class="titleSection">
+                        <div class="trapezoid trapezoid-right">
+                            <div class="text line-height-2rem" >
+                                தமிழ்நாட்டிற்கு உட்பட்ட நாடாளுமன்றத் தொகுதிகளின் பகுப்பாய்வு
+                            </div>
+                        </div>
+                        <div class="statBox"></div>
+                        <div class="statBox"></div>
+                    </div>
+                    <div
+                        class="reportpdf_secondpage_graph"
+                    >
+                    <div class="inner-box">
+                        <div>                            <div id="57c1e516-87cd-48f0-a006-d4e3452a9aa1" class="plotly-graph-div" style="height:210px; width:650px;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("57c1e516-87cd-48f0-a006-d4e3452a9aa1")) {                    Plotly.newPlot(                        "57c1e516-87cd-48f0-a006-d4e3452a9aa1",                        [{"alignmentgroup":"True","hovertemplate":"PC=%{x}<br>Votes=%{y}<extra></extra>","legendgroup":"","marker":{"color":["#fe6160","#fe6160","#fe6160","#fe6160","#fe6160","#ab2d24","#fe6160","#fe6160","#fe6160","#fe6160","#fe6160"],"pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","texttemplate":"%{y}","x":["Mayiladuthurai","Chennai South","Ramanathapuram","Perambalur","Chidambaram(SC)","Tirunelveli","Thanjavur","Arani","Chennai North","Krishnagiri","Viluppuram(SC)"],"xaxis":"x","y":[516534,515307,506690,505348,501851,499493,498822,497083,495733,491131,474230],"yaxis":"y","type":"bar","width":[0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75]}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"PC"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Votes"}},"legend":{"tracegroupgap":0},"margin":{"t":0,"b":0,"l":0,"r":0},"barmode":"relative","font":{"size":12,"family":"'Inter', 'sans serif'"},"paper_bgcolor":"#e3e2e1","plot_bgcolor":"#e3e2e1","showlegend":false,"height":210,"width":650},                        {"displayModeBar": false, "responsive": true}                    )                };                            </script>        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- graph2 -->
+                <div class="reportpdf_secondpage_graphContainer w-50">
+                    <div class="titleSection">
+                        <div class="trapezoid trapezoid-right">
+                            <div class="text line-height-2rem">
+                                Tirunelveli பாராளுமன்ற தொகுதிக்குட்பட்ட சட்டமன்ற தொகுதிகளின் பகுப்பாய்வு
+                            </div>
+                        </div>
+                        <div class="statBox"></div>
+                        <div class="statBox"></div>
+                    </div>
+                    <div
+                        class="reportpdf_secondpage_graph"
+                    >
+                    <div class="inner-box">
+                        
+                        <div>                            <div id="0e0954d2-b904-4853-9a66-cf0b7661f5db" class="plotly-graph-div" style="height:210px; width:650px;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("0e0954d2-b904-4853-9a66-cf0b7661f5db")) {                    Plotly.newPlot(                        "0e0954d2-b904-4853-9a66-cf0b7661f5db",                        [{"alignmentgroup":"True","hovertemplate":"Assembly Constituency=%{x}<br>Margin Percentage=%{y}<extra></extra>","legendgroup":"","marker":{"color":["#0e9103","#0e9103","#0e9103","#0e9103","#0e9103","#0e9103"],"pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","texttemplate":"%{y}","x":["Palayamkottai","Alangulam","Tirunelveli","Nanguneri","Ambasamudram","Radhapuram"],"xaxis":"x","y":[31.4,14.69,10.38,13.71,13.25,12.14],"yaxis":"y","type":"bar","width":[0.75,0.75,0.75,0.75,0.75,0.75]}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Assembly Constituency"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Margin Percentage"}},"legend":{"tracegroupgap":0},"margin":{"t":0,"b":0,"l":0,"r":0},"barmode":"relative","font":{"size":12,"family":"'Inter', 'sans serif'"},"paper_bgcolor":"#e3e2e1","plot_bgcolor":"#e3e2e1","showlegend":false,"height":210,"width":650},                        {"displayModeBar": false, "responsive": true}                    )                };                            </script>        </div>
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- graph and summary section -->
+            <div class="d-flex">
+                <!-- graph3 -->
+                <div
+                    class="reportpdf_secondpage_graphContainer"
+                    style="width: 30%"
+                >
+                    <div class="titleSection">
+                        <div class="trapezoid trapezoid-right">
+                            <div class="text line-height-2rem">PARTY VOTE SHARE</div>
+                        </div>
+                        <div class="statBox"></div>
+                        <div class="statBox"></div>
+                    </div>
+                    <div
+                        class="reportpdf_secondpage_graph"
+                    >
+                    <div class="inner-box">
+                        <div>                            <div id="6aa8d4cf-75e0-47c9-8a09-f4e612cb97a8" class="plotly-graph-div" style="height:212px; width:400px;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("6aa8d4cf-75e0-47c9-8a09-f4e612cb97a8")) {                    Plotly.newPlot(                        "6aa8d4cf-75e0-47c9-8a09-f4e612cb97a8",                        [{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"hovertemplate":"pc=%{label}<br>votes=%{value}<extra></extra>","labels":["INC","BJP","AIADMK","Others"],"legendgroup":"","name":"","showlegend":true,"values":[47.09,31.53,8.39,12.99],"type":"pie","textinfo":"label+percent","textposition":"inside"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"legend":{"tracegroupgap":0},"margin":{"t":0,"b":0,"l":0,"r":0},"showlegend":false,"font":{"size":12,"family":"'Inter', 'sans serif'"},"height":212,"width":400},                        {"displayModeBar": false, "responsive": true}                    )                };                            </script>        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- summary -->
+                <div
+                    class="reportpdf_secondpage_graphContainer"
+                    style="width: 70%"
+                >
+                    <div class="titleSection">
+                        <div class="trapezoid trapezoid-right">
+                            <div class="text line-height-2rem" >
+                                Tirunelveli கவனிக்கத்தக்க தகவல
+                            </div>
+                        </div>
+                        <div class="statBox"></div>
+                        <div class="statBox"></div>
+                    </div>
+                    <div
+                        class="reportpdf_secondpage_graph d-flex flex-column align-items-start justify-content-between"
+                        style="
+                            border-radius: 0px 0px 15px 15px;
+                            border: 1px solid lightgrey;
+                            height: 14rem;
+                            background-color: #fcfafa;
+                        "
+                    >
+                        <div class="insight-container"
+                        >
+                            <div class="insight-icon">
+                                    <img src="assets/icons/pdf_insight_1.svg" style="width: 3rem; height: 3rem;" alt="">
+                            </div>
+                            <div>
+                                    திருநெல்வேலியில் உள்ள வாக்காளர்களில் முதியோர்கள் 31-50 (41.73%), இளைஞர்கள் (18-30) 23.78%. நடு வயதினர் (51-80) 33.67% மற்றும் பெரியோர்கள் (81+) 0.81% உள்ளனர்
+                            </div>
+                        </div>
+                        <div class="insight-container" style="background-color: white;">
+                            <div class="insight-icon">
+                                    <img src="assets/icons/pdf_insight_2.svg" style="width: 3rem; height: 3rem;" alt="">
+                            </div>
+                            <div>
+                                    மொத்த வாக்காளர்களின் எண்ணிக்கை 249692 அதில் ஆண்கள்-121721, பெண்கள்-127950 ஆகும்
+                            </div>
+                        </div>
+                        <div class="insight-container">
+                            <div class="insight-icon">
+                                    <img src="assets/icons/pdf_insight_3.svg" style="width: 3rem; height: 3rem;" alt="">
+                            </div>
+                            <div>
+                                    திருநெல்வேலி தொகுதியில் நாடார் சமூகத்தினரின் எண்ணிக்கை பலத்தால் ஆதாயமடைந்த திரு. ராபர்ட் புரூஸ் எம்.பி இடத்தைப் பெற்றார்
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="page-break"></div>
+    </body>
+</html>

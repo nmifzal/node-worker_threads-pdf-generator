@@ -1,0 +1,59 @@
+.index-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+}
+
+.index-table-body {
+    min-height: 10rem;
+    align-items: center;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #fcfafa;
+    position: relative;
+}
+
+.index-table-row {
+    height: 3rem;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.index-table-dots::after {
+    content: '';
+    position: absolute;
+    bottom: 0.7rem;
+    left: 0;
+    width: 98%;
+    border-bottom: 1px dashed black;
+    z-index: 0;
+}
+
+.bring-front {
+    padding-right: 1rem;
+    z-index: 1;
+    background: #fcfafa;
+    position: relative;
+}
+
+/* this enables background graphics in print preview */
+* {
+    -webkit-print-color-adjust: exact !important; /* Chrome, Safari 6 – 15.3, Edge */
+    color-adjust: exact !important; /* Firefox 48 – 96 */
+    print-color-adjust: exact !important; /* Firefox 97+, Safari 15.4+ */
+}
+
+@page {
+    margin: 0 !important;
+}

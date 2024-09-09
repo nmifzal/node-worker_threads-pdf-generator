@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.18" height="26.18" viewBox="0 0 26.18 26.18">
+  <g id="Icon_ionic-md-help-circle-outline" data-name="Icon ionic-md-help-circle-outline" transform="translate(-3.375 -3.375)">
+    <path id="Path_7724" data-name="Path 7724" d="M16.465,6.018A10.442,10.442,0,1,1,9.077,9.077a10.4,10.4,0,0,1,7.388-3.059m0-2.643a13.09,13.09,0,1,0,13.09,13.09,13.088,13.088,0,0,0-13.09-13.09Z" fill="#51b29b"/>
+    <g id="Group_2095" data-name="Group 2095" transform="translate(10.615 7.676)">
+      <path id="Path_7725" data-name="Path 7725" d="M16.523,23.836h2.953v2.953H16.523Z" transform="translate(-12.15 -9.211)" fill="#51b29b"/>
+      <path id="Path_7726" data-name="Path 7726" d="M19.462,22.359H16.538c0-4.711,4.387-4.373,4.387-7.3A2.938,2.938,0,0,0,18,12.129a2.967,2.967,0,0,0-2.925,2.918H12.15a5.85,5.85,0,0,1,11.7.007C23.85,18.71,19.462,19.125,19.462,22.359Z" transform="translate(-12.15 -9.211)" fill="#51b29b"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+.react_partymap_title {
+    font-size: 1.6rem;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+    letter-spacing: -1px;
+    /* font-family: Helvetica, 'sans serif'; */
+}
+
+.react_partymap {
+    height: 43em;
+    background-color: white;
+}
+
+@media all and (min-width: 992px) and (max-width: 1400px) {
+    .react_partymap_title {
+        font-size: 1.2rem;
+    }
+
+    .react_partymap {
+        height: 38em;
+    }
+}
+
+@media screen and (max-width:700px) {
+    
+
+    .react_partymap_title {
+        font-size: 1rem;
+        text-align: center;
+        padding: unset !important;
+        padding-top: 1rem !important;
+    }
+
+    .react_partymap {
+        height: 26em;
+
+    }
+}
+

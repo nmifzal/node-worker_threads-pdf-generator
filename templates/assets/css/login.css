@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+.login_page_main {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login_page_left {
+    height: 100%;
+    vertical-align: top;
+    float: left;
+    position: relative;
+}
+
+.login_page_right {
+    height: 100%;
+    vertical-align: top;
+    background-color: #ff7979;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated_prop {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+#Path_8491 {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.gear_set1 {
+    text-align: end;
+    padding-right: 20%;
+    padding-top: 60px;
+}
+
+.gear_set2 {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+.login_main_image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+}
+
+/*  login_page_right_div */
+
+.login_right_container_main_div {
+    height: 50%;
+    width: 70%;
+}
+
+.welcome_text_container {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_text {
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: white;
+}
+
+.phone_number_inputbox_and_otp_input_div {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 6%;
+}
+
+.optional_label {
+    width: 100%;
+    height: 15%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.mobile_number_input_box_div {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone_number_input_box {
+    display: block !important;
+    height: 70%;
+    width: 80%;
+    border-radius: 2rem;
+    border: none !important;
+    padding-left: 5%;
+    color: rgb(117, 117, 117);
+}
+
+.send_otp_button_div {
+    height: 40%;
+    width: 100%;
+}
+
+.login_otp_button {
+    height: 70%;
+    width: 80%;
+    border-radius: 2rem;
+    border: none !important;
+    background-color: #f7f7f7;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+}
+
+.login_otp_button:hover {
+    background-color: #f7f7f7;
+}
+
+.whats_app_login_button_div {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.otp_modal_input_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 9rem;
+}
+
+.otp_info {
+    height: 25%;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.otp_input_box_div {
+    height: 65%;
+    width: 56%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp_input_box {
+    margin-right: 0.2rem;
+}
+
+.otp_submit_button {
+    border-radius: 2rem;
+    background-color: #ff7979;
+    border: none !important;
+    color: white;
+}
+.otp_cancel_button {
+    border-radius: 2rem;
+    background-color: #ff7979;
+    border: none !important;
+    color: white;
+}
+
+@media screen and (min-width: 227px) and (max-width: 576px) {
+    .login_page_main {
+        height: 50rem;
+    }
+    .login_page_left {
+        height: 50%;
+    }
+
+    .login_page_right {
+        height: 50%;
+    }
+
+    .login_main_image {
+        width: calc(100% - 110px);
+        top: 60%;
+    }
+
+    .gear_set1 {
+        text-align: end;
+        padding-right: 4%;
+        padding-top: 40px;
+    }
+
+    .gear_set2 {
+        top: 26%;
+        left: 5%;
+    }
+
+    .whats_app_login_button_div {
+        margin-top: 1rem;
+    }
+
+    .welcome_text {
+        font-size: 2rem;
+        font-weight: 600;
+        color: white;
+    }
+
+    .optional_label {
+        width: 100%;
+        height: 15%;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+    }
+
+    .login_page_right {
+        align-items: unset !important;
+    }
+    .login_right_container_main_div {
+        margin-top: 3rem;
+        height: 70%;
+    }
+    .phone_number_inputbox_and_otp_input_div {
+        margin-top: 1rem;
+    }
+}
+
+.otp-input-wrapper {
+    width: 240px;
+    text-align: left;
+    display: inline-block;
+}
+.otp-input-wrapper input {
+    padding: 0;
+    width: 264px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #3e3e3e;
+    background-color: transparent;
+    border: 0;
+    margin-left: 12px;
+    letter-spacing: 48px;
+    font-family: sans-serif !important;
+}
+.otp-input-wrapper input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.otp-input-wrapper svg {
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 2px;
+}

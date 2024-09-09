@@ -1,0 +1,668 @@
+#demograpy_caste_model_id {
+    max-width: 76%;
+    max-height: 96%;
+}
+
+.demo_main_label {
+    display: inline-block;
+}
+
+#\{\"index\"\:0\,\"type\"\:\"model_header\"\} {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+
+#\{\"index\"\:0\,\"type\"\:\"demograpy_caste_model_id\"\} {
+    max-width: 100%;
+    overflow: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.community_tittle {
+    font-family: 'Noto Sans Tamil';
+    letter-spacing: 0.45px;
+    color: #2c4159;
+    opacity: 1;
+    padding-left: 22px;
+}
+
+.comunity_pie_chart .svg-container {
+    position: unset !important;
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+.comunity_pie_chart .main-svg {
+    width: 100% !important;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+    height: 100% !important;
+    overflow: auto;
+    position: absolute !important;
+    padding-left: 15%;
+
+
+}
+
+
+.first_div_container {
+    /* height: 351px; */
+    display: inline-block;
+    width: 50%;
+    height: 90%;
+}
+
+.agecategory_tittle {
+    font-family: 'Noto Sans Tamil';
+    letter-spacing: 0.45px;
+    color: #2c4159;
+    opacity: 1;
+    padding-left: 22px;
+    padding-top: 13px;
+}
+
+.office_barrier_tittle {
+    font-family: 'Noto Sans Tamil';
+    letter-spacing: 0.45px;
+    color: #2c4159;
+    opacity: 1;
+}
+
+.office_barrier_data {
+    font-family: 'Noto Sans Tamil';
+    letter-spacing: 0.45px;
+    color: #2c4159;
+    opacity: 1;
+    font-size: 21px;
+}
+
+.office-bearer-community {
+    display: inline-block;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.occupation-tittle {
+    font-family: 'Noto Sans Tamil';
+    letter-spacing: 0.45px;
+    color: #2c4159;
+    opacity: 1;
+}
+
+.occupation_data {
+    padding-left: 33%;
+    padding-top: 22%;
+    font-family: 'Noto Sans Tamil';
+    letter-spacing: 0.45px;
+    color: #2c4159;
+    opacity: 1;
+    font-size: 21px;
+}
+
+.demography_model_container .modal-body {
+    /* position: relative; */
+    flex: 1 1 auto;
+    padding: 1rem;
+    /* overflow-y: scroll; */
+}
+
+/* 
+.caste_data_container_second {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+} */
+
+.caste_data_container_first {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.office_barriers_data_first_container {
+    padding: 10px;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 19px;
+}
+
+.comunity_bar_container_second {
+    width: 100%;
+    display: inline-block;
+}
+
+/* 
+div#\{\"index\"\:0\,\"type\"\:\"comunity_bar\"\} {
+    height: 260px;
+    position: absolute;
+    top: 40px;
+} */
+
+.comunity_bar_container_first {
+    /* width: 40%; */
+    width: 100%;
+    height: 35%;
+    /* display: inline-block; */
+    padding: 10px;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 19px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.gender_container {
+    width: 100%;
+    height: 20%;
+    display: block;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.religion_pie_container_second {
+    width: 100%;
+}
+
+.religion_pie_container_first {
+    width: 48%;
+    height: 42%;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 19px;
+    vertical-align: top;
+}
+
+.maleicon_container {
+    display: inline-block;
+    background: whitesmoke;
+    width: 15%;
+    height: 50px;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 20px 0px 0px 19px;
+    text-align: center;
+    margin-top: auto;
+    /* display: inline-block;
+    background: whitesmoke;
+    width: 50%;
+    height: 68px;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 19px 0px 0px 19px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 14px; */
+}
+
+.male_icon {
+    font-size: 44px;
+    color: #6f6b6b;
+    padding-top: 10px;
+}
+
+.male_gender_input {
+    height: 50px;
+    vertical-align: sub;
+    background: whitesmoke;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 0px 16px 16px 0px;
+    border: none;
+    padding-top: 0px;
+    text-align: center;
+
+    /* width: 50%;
+    height: 68px;
+    vertical-align: top;
+    background: whitesmoke;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 0px 16px 16px 0px;
+    border: none;
+    margin-top: 14px;
+    text-align: center */
+}
+
+.femlaeicon_container {
+    display: inline-block;
+    background: whitesmoke;
+    width: 15%;
+    height: 50px;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 20px 0px 0px 19px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.female_icon {
+    font-size: 44px;
+    color: #6f6b6b;
+    padding-top: 10px;
+}
+
+.female_gender_input {
+    height: 50px;
+    vertical-align: sub;
+    background: whitesmoke;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 0px 16px 16px 0px;
+    border: none;
+    padding-top: 0px;
+    text-align: center;
+
+
+}
+
+.transgender_container {
+    display: inline-block;
+    background: whitesmoke;
+    width: 15%;
+    height: 50px;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 20px 0px 0px 19px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.transgender_icon {
+    font-size: 44px;
+    color: #6f6b6b;
+    padding-top: 10px;
+}
+
+.trans_gender_input {
+    height: 50px;
+    vertical-align: sub;
+    background: whitesmoke;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 0px 16px 16px 0px;
+    border: none;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.gender_box_container {
+    /* padding: 20px; */
+    padding: 10px;
+    text-align: center;
+}
+
+.gender_tittle {
+    font-family: 'Noto Sans Tamil';
+    letter-spacing: 0.45px;
+    color: #2c4159;
+    opacity: 1;
+    padding-left: 22px;
+    padding-top: 24px;
+}
+
+.ac_name_tittle {
+    padding-left: 43%;
+    padding-top: 13px;
+    color: #797bf2;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.second_div_container {
+    /* width: 100%; */
+    vertical-align: top;
+    width: 49%;
+
+    display: inline-block;
+    padding-left: 14px;
+    height: 100%;
+}
+
+.comunity_bar_graph .ygrid.crisp {
+    stroke: rgb(185 190 210) !important;
+    stroke-opacity: 1 !important;
+    stroke-width: 1px !important;
+    stroke-dasharray: 2, 4;
+}
+
+.male_hower {
+    position: relative;
+
+    width: 50%;
+
+    height: 5%;
+
+    max-width: 120px;
+
+    padding: 0.25rem 0.5rem;
+
+    color: #fff;
+
+    text-align: center;
+
+    border-radius: 0px 0px 0px 0px;
+}
+
+.male_hower .tooltip-inner {
+    min-width: 100px;
+    background-color: white;
+    box-shadow: 0 0.4rem 1rem rgb(0 0 0 / 15%) inset !important;
+    color: black;
+}
+
+.female_hower {
+    position: relative;
+
+    width: 50%;
+
+    height: 5%;
+
+    max-width: 120px;
+
+    padding: 0.25rem 0.5rem;
+
+    color: #fff;
+
+    text-align: center;
+
+    border-radius: 0px 0px 0px 0px;
+}
+
+.female_hower .tooltip-inner {
+    min-width: 100px;
+    background-color: white;
+    box-shadow: 0 0.4rem 1rem rgb(0 0 0 / 15%) inset !important;
+    color: black;
+}
+
+.trans_hower {
+    position: relative;
+
+    width: 50%;
+
+    height: 5%;
+
+    max-width: 150px;
+
+    padding: 0.25rem 0.5rem;
+
+    color: #fff;
+
+    text-align: center;
+
+    border-radius: 0px 0px 0px 0px;
+}
+
+.trans_hower .tooltip-inner {
+    min-width: 100px;
+    background-color: white;
+    box-shadow: 0 0.4rem 1rem rgb(0 0 0 / 15%) inset !important;
+    color: black;
+}
+
+.demography_model_container .modal-content {
+    height: calc(100vh - 50px);
+}
+
+
+
+
+.item-content {
+    width: 100%;
+    height: Calc(100% - 10px);
+    overflow-x: hidden;
+}
+
+.item-content {
+    width: 100%;
+    height: Calc(100% - 10px);
+    overflow-x: hidden;
+}
+
+.react-grid-item>.react-resizable-handle.react-resizable-handle-se {
+    bottom: -13px;
+    right: 50%;
+    cursor: se-resize;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+    transform: rotate(45deg);
+    background-color: #fe6160;
+}
+
+.react-grid-item>.react-resizable-handle::after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.react-resizable-handle {
+    background-image: unset;
+}
+
+.item {
+    background: unset;
+    border-radius: unset;
+    /* box-shadow: unset;
+    box-shadow: unset; */
+}
+
+/* .react-grid-item.item.react-draggable.cssTransforms.react-resizable {
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: 350px;
+    min-height: 350px;
+    max-height: 590px;
+    position: absolute;
+    transform: translate(10px, 10px);
+} */
+/* .react-grid-item.item.react-draggable.cssTransforms.react-resizable {
+    max-height: 550px !important;
+    min-height: 350px;
+    height: 350px !important;
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+} */
+
+/* .draggable2 .react-grid-item.item.react-draggable.cssTransforms.react-resizable {
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+} */
+
+.demography_font_style {
+    font-size: 17px;
+}
+
+.demography_info_font {
+    font-size: 12px !important;
+}
+
+
+.demography_font_style {
+    font-size: 17px;
+}
+
+.demography_info_font {
+    font-size: 12px !important;
+}
+
+.demography_box_shadow {
+    box-shadow: 0px 1px 10px -1px rgb(30 44 57 / 15%);
+    ;
+}
+
+.demography_div_switch_icon_style {
+    background-color: rgb(204, 0, 0);
+    position: absolute;
+    top: 98%;
+    width: 5rem;
+    border-radius: 15px;
+    height: 2rem;
+}
+
+
+@media screen and (max-width:1536px) and (min-width:900px) {
+
+    /* 
+    div#\{\"index\"\:0\,\"type\"\:\"comunity_bar\"\} {
+        height: 260px;
+        position: absolute;
+        top: 0px;
+    } */
+
+    .first_div_container {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .second_div_container {
+        vertical-align: top;
+        width: 49%;
+        /* height: 615px; */
+        display: inline-block;
+        padding-left: 14px;
+        height: 100%;
+    }
+
+    .react-grid-item.item.react-draggable.cssTransforms.react-resizable {
+        min-height: 200px;
+    }
+
+    /*  .react-grid-layout.draggable {
+        height: unset !important;
+    } */
+
+}
+
+
+
+@media all and (max-width: 1195px) {
+
+    .demography_font_style {
+        font-size: 14px;
+    }
+
+    .demography_info_font {
+        font-size: 10px !important;
+    }
+
+    .comunity_pie_chart .main-svg {
+        width: 100% !important;
+        /* padding-left: 20%;
+        padding-right: 20%; */
+        height: 100% !important;
+        overflow: auto;
+        position: absolute !important;
+        padding-left: 0% !important;
+
+    }
+
+    .comunity_pie_chart .js-plotly-plot .plotly .main-svg {
+        top: 2px;
+        left: -24px;
+    }
+
+    .demography_div_switch_icon_style {
+        background-color: rgb(204, 0, 0);
+        position: absolute;
+        top: 98%;
+        width: 3rem;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+}
+
+@media screen and (max-width:700px) {
+    .demography_model_container .modal-body {
+        flex: 1 1 auto;
+        padding: 1rem;
+        overflow-y: scroll;
+    }
+
+    .demography_drag_drop_container{
+        width: 100% !important;
+        height: 80vh !important;
+    }
+    
+    .second_div_container {
+        /* width: 100%; */
+        vertical-align: top;
+        padding: unset !important;
+        width: 100%;
+    
+        display: inline-block;
+        height: unset !important;
+    }
+
+    .gender_container {
+        width: 100% !important;
+        height: 35vh !important;
+        display: block;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        padding: unset !important;
+    }
+
+    .demograph_gender_child_container{
+        display: flex !important;
+        justify-content: space-around !important;
+        flex-direction: column !important;
+    }
+
+    .demography_gender_child{
+        width: 80% !important;
+    }
+
+    .gender_tittle {
+        height: 20% !important;
+    }
+
+    .demography_ob_nd_occupation_div{
+        height: 80vh !important;
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+
+    .office_barriers_data_first_container{
+        height: 45% !important;
+        width: 100% !important;
+    }
+    .religion_pie_container_first{
+        height: 45% !important;
+        width: 100% !important;
+
+    }
+
+    .ac_name_tittle{
+        display: flex !important;
+        padding:  unset !important;
+        padding-left: 25% !important;
+
+    }
+
+    
+
+}

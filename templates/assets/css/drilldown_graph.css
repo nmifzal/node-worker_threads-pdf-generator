@@ -1,0 +1,122 @@
+.category-stats-card-ac {
+    height: 100%;
+    background-color: rgb(153, 158, 230);
+    border-radius: 10% 15% 20% 70%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.Select-menu-outer {
+    color: black !important;
+}
+
+.center-hv {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ac-dropdown-container {
+    display: flex;
+    justify-content: space-around;
+    color: #000000 !important;
+}
+
+.ac-dropdown {
+    border-radius: 25px;
+    color: #000000;
+    font-weight: 400;
+    width: 85%;
+}
+
+.pc-dropdown-container {
+    display: flex;
+    justify-content: space-around;
+    color: #000000 !important;
+}
+
+.pc-dropdown .Select-control {
+    border-radius: 25px !important;
+}
+
+
+.pc-dropdown {
+    border-radius: 25px;
+    color: #000000;
+    font-weight: 400;
+    width: 85%;
+}
+
+.ac-dropdown-info-table-div {
+    width: 15%;
+    display: inline;
+    padding-left: 0.5rem;
+}
+
+.ac-dropdown .Select-control {
+    border-radius: 25px;
+}
+
+.breadcrumbs-container {
+    display: flex;
+    padding: 1em;
+    overflow: scroll;
+}
+
+.breadcrumbs-container::-webkit-scrollbar {
+    display: none;
+}
+
+.breadcrumbs-item {
+    display: flex;
+    align-items: center;
+    min-width: 12em;
+}
+
+.breadcrumbs-item:hover {
+    cursor: pointer;
+}
+
+/* Sort switch */
+/* .sort-icon {
+    background-color: #f45f5d;
+    color: #ffffff;
+} */
+
+.sort-switch {
+    display: inline-flex;
+    border-radius: 2em;
+    background-color: #eaeaea;
+    filter: drop-shadow(0px 0px 2px #909090);
+}
+
+.sort-icon {
+    cursor: pointer;
+    font-size: 20pt;
+    border-radius: 0.7em;
+    padding: 0px 10px 0px 10px;
+    color: #f45f5d;
+}
+
+.graph_range_slider_min_max_legend {
+    width: 90%;
+    background-color: red;
+    height: 1rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+    .sort-icon {
+        cursor: pointer;
+        font-size: 15pt;
+        border-radius: 0.7em;
+        padding: 0px 10px 0px 10px;
+        color: #f45f5d;
+    }
+}

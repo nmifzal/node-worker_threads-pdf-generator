@@ -1,0 +1,60 @@
+.reportpdf_secondpage_black_bar {
+    margin: 1rem 0;
+    height: 0.3rem;
+    background-color: black;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+.reportpdf_secondpage_graphContainer {
+    margin: 0.15rem;
+    border-radius: 4px;
+}
+
+.reportpdf_secondpage_graphContainer .titleSection {
+    /* display: flex; */
+    width: 100%;
+    position: relative;
+}
+.votes-count{
+    position: absolute;
+    right: 0.5rem;
+    top: 0;
+}
+
+.reportpdf_secondpage_graphContainer .titleSection .titleBox {
+    flex: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 1rem;
+}
+
+.reportpdf_secondpage_graphContainer .titleSection .statBox {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    font-weight: 700;
+}
+
+.reportpdf_secondpage_graph {
+    margin: 0 auto;
+    background-color: #fcfafa;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid lightgrey;
+    height: 12.35rem;
+}
+
+.inner-box {
+    margin: 0.2em;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    background-color: #eaeaea;
+    height: 96%;
+}
